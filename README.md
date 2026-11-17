@@ -23,13 +23,6 @@ assets/        estilos e imágenes
 database/schema.sql   estructura completa de la base (sin datos)
 ```
 
-## Base de datos
-
-`database/schema.sql` contiene **solo la estructura** (tablas, índices, llaves, vistas). Tablas principales:
-`usuarios`, `areas`, `ubicaciones`, `tickets`, `ticket_seguimiento`, `ticket_evidencias`, `prioridades`, `categorias`,
-`equipos` (+ `equipo_ram`, `equipo_gpu`, `equipo_almacenamiento`), `equipo_mantenimientos` (+ ficha, componentes, evidencias), `partes_catalogo`.
-
-La vista `avisos_tickets` es de solo lectura y la consume el [Centro de avisos](https://github.com/henrycalbohorj-dot/centro-avisos-ugel) con un usuario sin acceso a datos sensibles.
 
 ## Instalación (Ubuntu)
 
@@ -68,4 +61,4 @@ Luego crea el primer usuario `admin` directamente en la tabla `usuarios` (contra
 Forma parte del conjunto de apps del Área de Informática desplegadas en un único servidor Ubuntu. Ver [apps-ugel-chincha](https://github.com/henrycalbohorj-dot/apps-ugel-chincha).
 
 ---
-Desarrollado por **Henry Braulio Pachas Dávalos** · Área de Informática, UGEL Chincha.
+Desarrollado por **Ing. Henry Braulio Pachas Dávalos** · Área de Informática, UGEL Chincha.
