@@ -1,0 +1,16 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+solicitudes/credenciales/*.json
+solicitudes/cache/*
+!solicitudes/cache/.htaccess
+# Datos y respaldos
+*.sql.gz
+*.dump
+*.bak
+*.log
+uploads/
+vendor/
+.DS_Store
+Thumbs.db
